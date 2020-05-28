@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">InventoryApp</string>
+
+    <!--
+        Used in the Catalog Activity
+    -->
+
+    <!-- name for the search option on the catalogue menu -->
+    <string name="action_search">Search</string>
+    <!-- name for the delete option on the Catalogue and Editor menu -->
+    <string name="action_delete_selected">Delete</string>
+
+    <!-- The following resources will be used for the EmptyState
+         View -->
+
+    <!-- Title text for the empty view, which describes the empty icon image [CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">It\'s a bit lonely here...</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add a pet [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">Get started by adding an item</string>
+
+
+    <!--
+        Used in the Editor Activity
+    -->
+
+    <!-- The title of the photo change icon-->
+    <string name="action_change_image">Change Image</string>
+
+    <!-- The title of the save icon-->
+    <string name="action_save">Save</string>
+
+    <!-- Title for the Editor Activity -->
+    <string name="addItemTitle">Add an Item</string>
+    <string name="editItemTitle">Edit Item</string>
+
+    <!-- Hint of the product name Field -->
+    <string name="hint_product_name">Name</string>
+
+    <!-- Hint of the product price Field -->
+    <string name="hint_product_price">Price</string>
+    <!-- Prefix Text for the item price EditText-->
+    <string name="currency" translatable="true">$</string>
+
+    <!-- Text for the product's Quantity TextView -->
+    <string name="item_quantity_label">Quantity:</string>
+
+    <!-- Text used to show the initial number of items, which is 0-->
+    <string name="quantity_initial_number">0</string>
+
+    <!-- Hint of the product sold number Field -->
+    <string name="hint_product_sold">Sold</string>
+
+    <!-- Hint for the quantity of product that have been shipped -->
+    <string name="hint_product_shipped">Shipped</string>
+
+    <!-- Hint of the product supplier Field -->
+    <string name="hint_product_supplier">Supplier</string>
+    <!-- Text on the save button of the EditorActivity's form-->
+    <string name="save_button_text">Save</string>
+
+    <!-- Will be used to display Toast related to the
+         user actions inside the Editor Activity-->
+
+    <!-- Text for the Toast to help the user fill the name Edit Text -->
+    <string name="emptyNameMessage">The name can not be empty</string>
+
+    <!-- Text for the Toast to help the user correct the shipped and sold values -->
+    <string name="invalidQuantityMessage">The sold value can not be \ngreater than the shipped value</string>
+
+    <!-- Toast message in editor when current item was successfully saved -->
+    <string name="editor_insert_item_successful">Item saved</string>
+
+    <!-- Toast message in editor when new item has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_item_failed">Error with saving item</string>
+
+    <!-- Toast message in editor when current item was successfully updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_item_successful">Item updated</string>
+
+    <!-- Toast message in editor when current item has failed to be updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_item_failed">Error with updating item</string>
+
+    <!-- Text on the Delete Confirmation Dialog -->
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Toast message in editor when current item was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_item_successful">Item deleted</string>
+
+    <!-- Toast message in editor when current item has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_item_failed">Error with deleting item</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current item [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this item?</string>
+
+    <!-- Dialog message to ask the user to confirm deleting a set of items [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg_group">Delete these items?</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current pet [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+</resources>
